@@ -16,4 +16,4 @@
 
 package webhookv1alpha1connect
 
-import _ "buf.build/go/bufprivateusage"
+import _ "github.com/daotl/bufprivateusage-go"

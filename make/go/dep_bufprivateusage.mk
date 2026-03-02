@@ -15,7 +15,7 @@ BUFPRIVATEUSAGE_VERSION ?= v0.1.0
 BUFPRIVATEUSAGE := $(CACHE_VERSIONS)/bufprivateusage/$(BUFPRIVATEUSAGE_VERSION)
 $(BUFPRIVATEUSAGE):
 	@rm -f $(CACHE_BIN)/bufprivateusage
-	GOBIN=$(CACHE_BIN) go install buf.build/go/bufprivateusage/cmd/bufprivateusage@$(BUFPRIVATEUSAGE_VERSION)
+	GOBIN=$(CACHE_BIN) go install github.com/daotl/bufprivateusage-go/cmd/bufprivateusage@$(BUFPRIVATEUSAGE_VERSION)
 	@rm -rf $(dir $(BUFPRIVATEUSAGE))
 	@mkdir -p $(dir $(BUFPRIVATEUSAGE))
 	@touch $(BUFPRIVATEUSAGE)
