@@ -2,6 +2,8 @@ module github.com/daotl/buf
 
 go 1.25.6
 
+replace buf.build/go/bufprivateusage v0.1.0 => github.com/daotl/bufprivateusage-go v0.1.0
+
 require (
 	buf.build/gen/go/bufbuild/bufplugin/protocolbuffers/go v1.36.11-20250718181942-e35f9b667443.1
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.11-20260209202127-80ab13bee0bf.1
