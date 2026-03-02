@@ -23,11 +23,11 @@ import (
 	"log/slog"
 
 	"buf.build/go/standard/xlog/xslog"
-	"github.com/bufbuild/buf/private/buf/bufworkspace"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/buf/bufworkspace"
+	"github.com/daotl/buf/private/bufpkg/bufcheck"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
 	"go.lsp.dev/protocol"
 )
 

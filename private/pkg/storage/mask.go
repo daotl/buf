@@ -19,7 +19,7 @@ import (
 	"io/fs"
 	"slices"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/normalpath"
 )
 
 // MaskReadBucket creates a ReadBucket that masks the include and exclude prefixes,

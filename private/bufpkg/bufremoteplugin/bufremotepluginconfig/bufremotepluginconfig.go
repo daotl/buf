@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
+	"github.com/daotl/buf/private/pkg/encoding"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 const (

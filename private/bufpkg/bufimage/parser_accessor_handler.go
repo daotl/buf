@@ -22,9 +22,9 @@ import (
 	"io/fs"
 	"sync"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/gen/data/datawkt"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/gen/data/datawkt"
 	"github.com/google/uuid"
 )
 

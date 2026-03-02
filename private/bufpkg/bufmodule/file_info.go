@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 // FileInfo is the file info for a Module file.

@@ -13,7 +13,7 @@ $(call _assert_var,BUF_VERSION)
 BUFSTYLE_GO_VERSION := $(shell go list -m -f '{{.GoVersion}}' | cut -d'.' -f1-2)
 
 # Settable
-# https://github.com/bufbuild/bufstyle-go/releases
+# https://github.com/daotl/bufstyle-go/releases
 BUFSTYLE_VERSION ?= v0.5.0
 
 BUFSTYLE := $(CACHE_VERSIONS)/bufstyle/$(BUFSTYLE_VERSION)-go$(BUFSTYLE_GO_VERSION)

@@ -27,8 +27,8 @@ import (
 	"testing"
 
 	"buf.build/go/standard/xos/xexec"
-	"github.com/bufbuild/buf/private/pkg/diff"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/pkg/diff"
+	"github.com/daotl/buf/private/pkg/protoencoding"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/testing/protocmp"

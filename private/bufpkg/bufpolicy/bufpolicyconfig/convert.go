@@ -18,8 +18,8 @@ import (
 	"strings"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
 )
 
 // LintConfigToBufConfig converts the given LintConfig to a bufconfig.LintConfig.

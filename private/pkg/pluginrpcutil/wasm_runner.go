@@ -22,7 +22,7 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/wasm"
+	"github.com/daotl/buf/private/pkg/wasm"
 	"pluginrpc.com/pluginrpc"
 )
 

@@ -17,8 +17,8 @@ package bufpluginv1
 import (
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/cmd/buf/internal/command/beta/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufcheckserver"
+	"github.com/daotl/buf/cmd/buf/internal/command/beta/internal"
+	"github.com/daotl/buf/private/bufpkg/bufcheck/bufcheckserver"
 )
 
 // NewCommand returns a new Command.

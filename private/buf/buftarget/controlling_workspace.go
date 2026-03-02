@@ -15,7 +15,7 @@
 package buftarget
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
 )
 
 // ControllingWorkspace is the information for the ControllingWorkspace.

@@ -22,13 +22,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/bufpkg/bufcheck"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/pkg/encoding"
+	"github.com/daotl/buf/private/pkg/protodescriptor"
+	"github.com/daotl/buf/private/pkg/protoencoding"
 	"github.com/bufbuild/protoplugin"
 )
 
@@ -43,7 +43,7 @@ func main() {
 		// An `EmptyResolver` is passed to protoplugin for unmarshalling instead of defaulting to
 		// protoregistry.GlobalTypes so that extensions are not inadvertently parsed from generated
 		// code linked into the binary. Extensions are later reparsed with the descriptorset itself.
-		// https://github.com/bufbuild/buf/issues/3306
+		// https://github.com/daotl/buf/issues/3306
 		protoplugin.WithExtensionTypeResolver(protoencoding.EmptyResolver),
 	)
 }

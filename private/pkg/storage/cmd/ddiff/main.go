@@ -22,8 +22,8 @@ import (
 
 	"buf.build/go/app"
 	"buf.build/go/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

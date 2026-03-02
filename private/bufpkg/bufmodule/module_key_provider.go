@@ -17,7 +17,7 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
 )
 
 // ModuleKeyProvider provides ModuleKeys for ModuleRefs.

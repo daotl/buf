@@ -21,9 +21,9 @@ import (
 	"strings"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin/bufremotepluginconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/daotl/buf/private/bufpkg/bufremoteplugin/bufremotepluginconfig"
+	"github.com/daotl/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
+	registryv1alpha1 "github.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
 	"google.golang.org/protobuf/proto"
 )
 

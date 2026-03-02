@@ -20,12 +20,12 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/bufctl"
-	"github.com/bufbuild/buf/private/buf/bufprint"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/protostat"
-	"github.com/bufbuild/buf/private/pkg/protostat/protostatstorage"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/buf/bufctl"
+	"github.com/daotl/buf/private/buf/bufprint"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/pkg/protostat"
+	"github.com/daotl/buf/private/pkg/protostat/protostatstorage"
 	"github.com/spf13/pflag"
 )
 

@@ -27,8 +27,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufconnect"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufconnect"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
 	"github.com/bufbuild/protocompile/experimental/ast"
 	"github.com/bufbuild/protocompile/experimental/ast/predeclared"
 	"github.com/bufbuild/protocompile/experimental/ir"

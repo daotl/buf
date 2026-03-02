@@ -27,13 +27,13 @@ import (
 	"buf.build/go/app/appcmd/appcmdtesting"
 	"buf.build/go/app/appext"
 	"buf.build/go/standard/xtesting"
-	"github.com/bufbuild/buf/private/buf/buftesting"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/buf/buftesting"
+	"github.com/daotl/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/pkg/prototesting"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagearchive"
+	"github.com/daotl/buf/private/pkg/storage/storagemem"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/descriptorpb"
@@ -59,7 +59,7 @@ type testPluginInfo struct {
 
 func TestOverlap(t *testing.T) {
 	t.Parallel()
-	// https://github.com/bufbuild/buf/issues/113
+	// https://github.com/daotl/buf/issues/113
 	appcmdtesting.Run(
 		t,
 		func(name string) *appcmd.Command {

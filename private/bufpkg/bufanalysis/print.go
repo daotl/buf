@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/shake256"
+	"github.com/daotl/buf/private/pkg/shake256"
 )
 
 func printAsText(writer io.Writer, fileAnnotations []FileAnnotation) error {

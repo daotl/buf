@@ -23,9 +23,9 @@ import (
 
 	"buf.build/go/app"
 	"buf.build/go/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/diff"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/licenseheader"
+	"github.com/daotl/buf/private/pkg/diff"
+	"github.com/daotl/buf/private/pkg/git"
+	"github.com/daotl/buf/private/pkg/licenseheader"
 	"github.com/spf13/pflag"
 )
 

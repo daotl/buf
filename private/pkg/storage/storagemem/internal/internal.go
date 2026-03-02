@@ -17,8 +17,8 @@
 package internal
 
 import (
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage/storageutil"
 )
 
 // ImmutableObject is an object that contains a path, external path,

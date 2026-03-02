@@ -22,13 +22,13 @@ import (
 	"log/slog"
 
 	policyv1beta1 "buf.build/gen/go/bufbuild/registry/protocolbuffers/go/buf/registry/policy/v1beta1"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy/bufpolicyapi"
-	"github.com/bufbuild/buf/private/pkg/cas"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy/bufpolicyapi"
+	"github.com/daotl/buf/private/pkg/cas"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 )
 
 // PolicyDataStore reads and writes PolicysDatas.

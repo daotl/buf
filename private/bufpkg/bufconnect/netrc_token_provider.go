@@ -16,7 +16,7 @@ package bufconnect
 
 import (
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/pkg/netrc"
+	"github.com/daotl/buf/private/pkg/netrc"
 )
 
 // netrcTokenProvider is used to provide remote tokenToAuthKey from .netrc.

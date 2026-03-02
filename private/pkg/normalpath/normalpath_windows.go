@@ -38,7 +38,7 @@ func NormalizeAndValidate(path string) (string, error) {
 		// with `/`.
 		return "", NewError(path, errNotRelative)
 	}
-	// https://github.com/bufbuild/buf/issues/51
+	// https://github.com/daotl/buf/issues/51
 	if strings.HasPrefix(normalizedPath, normalizedRelPathJumpContextPrefix) ||
 		normalizedPath == normalizedRelPathJumpContextPath {
 		return "", NewError(path, errOutsideContextDir)

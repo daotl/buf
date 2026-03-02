@@ -26,9 +26,9 @@ import (
 	"buf.build/go/app"
 	"buf.build/go/standard/xlog/xslog"
 	"buf.build/go/standard/xos/xexec"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/tmp"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/tmp"
 )
 
 type cloner struct {

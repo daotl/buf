@@ -23,8 +23,8 @@ import (
 
 	"buf.build/go/app"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/slogapp"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/pkg/slogapp"
 	"github.com/bufbuild/protoplugin"
 )
 

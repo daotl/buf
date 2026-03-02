@@ -16,15 +16,15 @@ package bufcli
 
 import (
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleapi"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin/bufpluginapi"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy/bufpolicyapi"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapiplugin"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapipolicy"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule/bufmoduleapi"
+	"github.com/daotl/buf/private/bufpkg/bufplugin"
+	"github.com/daotl/buf/private/bufpkg/bufplugin/bufpluginapi"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy/bufpolicyapi"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapiplugin"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapipolicy"
 )
 
 // NewModuleUploader returns a new Uploader for ModuleSets.

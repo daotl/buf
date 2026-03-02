@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 
 	"buf.build/go/standard/xpath/xfilepath"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/osext"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/osext"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 type cleaner struct {

@@ -18,9 +18,9 @@
 package datawkt
 
 import (
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagemem"
 )
 
 // Version is the version of github.com/protocolbuffers/protobuf used to extract the Well-Known Types.

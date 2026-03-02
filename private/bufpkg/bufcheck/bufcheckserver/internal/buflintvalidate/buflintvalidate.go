@@ -16,8 +16,8 @@ package buflintvalidate
 
 import (
 	"buf.build/go/protovalidate"
-	"github.com/bufbuild/buf/private/bufpkg/bufprotosource"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/bufpkg/bufprotosource"
+	"github.com/daotl/buf/private/pkg/protoencoding"
 )
 
 // CheckMessage validates that all rules on the message are valid, and any CEL expressions compile.

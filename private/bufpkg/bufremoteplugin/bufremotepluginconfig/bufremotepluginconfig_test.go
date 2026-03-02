@@ -23,8 +23,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"

@@ -17,7 +17,7 @@ package bufanalysistesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
 	"github.com/stretchr/testify/assert"
 )
 

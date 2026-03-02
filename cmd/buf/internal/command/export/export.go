@@ -24,14 +24,14 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/bufctl"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/gen/data/datawkt"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/buf/bufctl"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/gen/data/datawkt"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/spf13/pflag"
 )
 
@@ -226,7 +226,7 @@ func run(
 	}
 
 	// In the case where we are excluding imports, we are allowing users to specify an input
-	// that may not have resolved imports (https://github.com/bufbuild/buf/issues/3002).
+	// that may not have resolved imports (https://github.com/daotl/buf/issues/3002).
 	// Thus we do not need to build the image, and instead we can return the non-import files
 	// from the workspace.
 	if flags.ExcludeImports {

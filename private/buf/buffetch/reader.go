@@ -21,12 +21,12 @@ import (
 	"net/http"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/buf/buftarget"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/httpauth"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/buf/buffetch/internal"
+	"github.com/daotl/buf/private/buf/buftarget"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/pkg/git"
+	"github.com/daotl/buf/private/pkg/httpauth"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 )
 
 type reader struct {

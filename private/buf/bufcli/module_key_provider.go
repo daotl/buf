@@ -16,9 +16,9 @@ package bufcli
 
 import (
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleapi"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule/bufmoduleapi"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
 )
 
 // NewModuleKeyProvider returns a new ModuleKeyProvider.

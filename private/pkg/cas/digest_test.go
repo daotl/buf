@@ -24,7 +24,7 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"github.com/bufbuild/buf/private/pkg/cas"
+	"github.com/daotl/buf/private/pkg/cas"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

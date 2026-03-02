@@ -24,15 +24,15 @@ import (
 	"testing"
 
 	"buf.build/go/standard/xtesting"
-	"github.com/bufbuild/buf/private/buf/buftesting"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/private/bufpkg/bufprotosource"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/buf/buftesting"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/daotl/buf/private/bufpkg/bufprotosource"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/prototesting"
+	"github.com/daotl/buf/private/pkg/slogtestext"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -278,7 +278,7 @@ func TestCyclicImport(t *testing.T) {
 }
 
 func TestDuplicateSyntheticOneofs(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/1071
+	// https://github.com/daotl/buf/issues/1071
 	t.Parallel()
 	testFileAnnotations(
 		t,

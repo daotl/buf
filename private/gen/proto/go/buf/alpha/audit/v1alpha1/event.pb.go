@@ -21,7 +21,7 @@
 package auditv1alpha1
 
 import (
-	v1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	v1alpha1 "github.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -13968,9 +13968,9 @@ const file_buf_alpha_audit_v1alpha1_event_proto_rawDesc = "" +
 	"%EVENT_TYPE_POLICY_ENFORCEMENT_CREATED\x10J\x12)\n" +
 	"%EVENT_TYPE_POLICY_ENFORCEMENT_DELETED\x10K\x120\n" +
 	",EVENT_TYPE_POLICY_ENFORCEMENT_POLICY_CHANGED\x10L\x121\n" +
-	"-EVENT_TYPE_POLICY_ENFORCEMENT_TARGETS_CHANGED\x10MB\x82\x02\n" +
+	"-EVENT_TYPE_POLICY_ENFORCEMENT_TARGETS_CHANGED\x10MB\xff\x01\n" +
 	"\x1ccom.buf.alpha.audit.v1alpha1B\n" +
-	"EventProtoP\x01ZSgithub.com/bufbuild/buf/private/gen/proto/go/buf/alpha/audit/v1alpha1;auditv1alpha1\xa2\x02\x03BAA\xaa\x02\x18Buf.Alpha.Audit.V1alpha1\xca\x02\x18Buf\\Alpha\\Audit\\V1alpha1\xe2\x02$Buf\\Alpha\\Audit\\V1alpha1\\GPBMetadata\xea\x02\x1bBuf::Alpha::Audit::V1alpha1b\x06proto3"
+	"EventProtoP\x01ZPgithub.com/daotl/buf/private/gen/proto/go/buf/alpha/audit/v1alpha1;auditv1alpha1\xa2\x02\x03BAA\xaa\x02\x18Buf.Alpha.Audit.V1alpha1\xca\x02\x18Buf\\Alpha\\Audit\\V1alpha1\xe2\x02$Buf\\Alpha\\Audit\\V1alpha1\\GPBMetadata\xea\x02\x1bBuf::Alpha::Audit::V1alpha1b\x06proto3"
 
 var file_buf_alpha_audit_v1alpha1_event_proto_enumTypes = make([]protoimpl.EnumInfo, 4)
 var file_buf_alpha_audit_v1alpha1_event_proto_msgTypes = make([]protoimpl.MessageInfo, 95)

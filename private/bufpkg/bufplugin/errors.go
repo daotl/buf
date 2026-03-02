@@ -17,8 +17,8 @@ package bufplugin
 import (
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 	"github.com/google/uuid"
 )
 

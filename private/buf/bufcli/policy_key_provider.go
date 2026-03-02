@@ -16,9 +16,9 @@ package bufcli
 
 import (
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy/bufpolicyapi"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapipolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy/bufpolicyapi"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapipolicy"
 )
 
 // NewPolicyKeyProvider returns a new PolicyKeyProvider.

@@ -15,9 +15,9 @@
 package internal
 
 import (
-	"github.com/bufbuild/buf/private/buf/buftarget"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/buf/buftarget"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 var _ ReadWriteBucket = &readWriteBucket{}

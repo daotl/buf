@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/pkg/protoencoding"
 	"github.com/bufbuild/protocompile"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
