@@ -17,7 +17,7 @@ package bufregistryapimodule
 import (
 	"buf.build/gen/go/bufbuild/registry/connectrpc/go/buf/registry/module/v1/modulev1connect"
 	"buf.build/gen/go/bufbuild/registry/connectrpc/go/buf/registry/module/v1beta1/modulev1beta1connect"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
+	"github.com/daotl/buf/private/pkg/connectclient"
 )
 
 var (

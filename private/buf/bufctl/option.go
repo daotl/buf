@@ -15,7 +15,7 @@
 package bufctl
 
 import (
-	"github.com/bufbuild/buf/private/buf/buffetch"
+	"github.com/daotl/buf/private/buf/buffetch"
 )
 
 // ControllerOption is a controller option.

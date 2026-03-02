@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
 )
 
 var (

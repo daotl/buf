@@ -21,7 +21,7 @@
 package registryv1alpha1
 
 import (
-	v1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
+	v1 "github.com/daotl/buf/private/gen/proto/go/buf/alpha/image/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -340,7 +340,7 @@ const file_buf_alpha_registry_v1alpha1_image_proto_rawDesc = "" +
 	"\fImageService\x12l\n" +
 	"\bGetImage\x12,.buf.alpha.registry.v1alpha1.GetImageRequest\x1a-.buf.alpha.registry.v1alpha1.GetImageResponse\"\x03\x90\x02\x01B\x97\x02\n" +
 	"\x1fcom.buf.alpha.registry.v1alpha1B\n" +
-	"ImageProtoP\x01ZYgithub.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1;registryv1alpha1\xa2\x02\x03BAR\xaa\x02\x1bBuf.Alpha.Registry.V1alpha1\xca\x02\x1bBuf\\Alpha\\Registry\\V1alpha1\xe2\x02'Buf\\Alpha\\Registry\\V1alpha1\\GPBMetadata\xea\x02\x1eBuf::Alpha::Registry::V1alpha1b\x06proto3"
+	"ImageProtoP\x01ZYgithub.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1;registryv1alpha1\xa2\x02\x03BAR\xaa\x02\x1bBuf.Alpha.Registry.V1alpha1\xca\x02\x1bBuf\\Alpha\\Registry\\V1alpha1\xe2\x02'Buf\\Alpha\\Registry\\V1alpha1\\GPBMetadata\xea\x02\x1eBuf::Alpha::Registry::V1alpha1b\x06proto3"
 
 var file_buf_alpha_registry_v1alpha1_image_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_buf_alpha_registry_v1alpha1_image_proto_msgTypes = make([]protoimpl.MessageInfo, 2)

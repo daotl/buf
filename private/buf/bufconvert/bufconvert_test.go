@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

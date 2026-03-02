@@ -27,9 +27,9 @@ import (
 
 	"buf.build/go/app/appext"
 	"buf.build/go/standard/xlog/xslog"
-	"github.com/bufbuild/buf/private/buf/bufctl"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/wasm"
+	"github.com/daotl/buf/private/buf/bufctl"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/wasm"
 	"github.com/bufbuild/protocompile/experimental/incremental"
 	"github.com/bufbuild/protocompile/experimental/ir"
 	"github.com/bufbuild/protocompile/experimental/source"

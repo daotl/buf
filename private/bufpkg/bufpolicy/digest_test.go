@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"buf.build/go/bufplugin/option"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

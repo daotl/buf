@@ -15,9 +15,9 @@
 package bufctl
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
 )
 
 type imageWithConfig struct {

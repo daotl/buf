@@ -26,8 +26,8 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/pkg/shake256"
-	"github.com/bufbuild/buf/private/pkg/slogapp"
+	"github.com/daotl/buf/private/pkg/shake256"
+	"github.com/daotl/buf/private/pkg/slogapp"
 	"github.com/spf13/pflag"
 )
 
@@ -139,7 +139,7 @@ func getGolangFileData(
 	"encoding/hex"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/shake256"
+	"github.com/daotl/buf/private/pkg/shake256"
 )`)
 	p("\n\n")
 	p(`var (`)

@@ -9,7 +9,7 @@ $(call _assert_var,CACHE_BIN)
 $(call _assert_var,BUF_VERSION)
 
 # Settable
-# https://github.com/bufbuild/bufprivateusage-go/releases
+# https://github.com/daotl/bufprivateusage-go/releases
 BUFPRIVATEUSAGE_VERSION ?= v0.1.0
 
 BUFPRIVATEUSAGE := $(CACHE_VERSIONS)/bufprivateusage/$(BUFPRIVATEUSAGE_VERSION)

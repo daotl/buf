@@ -23,10 +23,10 @@ import (
 
 	"buf.build/go/standard/xslices"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 )
 
 // NewModuleSetForProtoc returns a new ModuleSet for protoc -I dirPaths and filePaths.
@@ -61,7 +61,7 @@ func NewModuleSetForProtoc(
 			return nil, err
 		}
 		// need to do match extension here
-		// https://github.com/bufbuild/buf/issues/113
+		// https://github.com/daotl/buf/issues/113
 		rootBuckets = append(rootBuckets, storage.FilterReadBucket(rootBucket, storage.MatchPathExt(".proto")))
 	}
 	targetPaths, err := xslices.MapError(

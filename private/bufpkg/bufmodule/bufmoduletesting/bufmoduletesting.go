@@ -23,14 +23,14 @@ import (
 
 	"buf.build/go/standard/xlog/xslog"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/dag"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/dag"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagemem"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 	"github.com/google/uuid"
 )
 

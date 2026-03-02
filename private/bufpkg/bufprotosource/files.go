@@ -19,7 +19,7 @@ import (
 	"sync"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/daotl/buf/private/pkg/thread"
 	"google.golang.org/protobuf/reflect/protodesc"
 )
 

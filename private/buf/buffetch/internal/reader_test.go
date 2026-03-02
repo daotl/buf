@@ -19,12 +19,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/buftarget"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/osext"
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/buf/buftarget"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/osext"
+	"github.com/daotl/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

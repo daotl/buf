@@ -21,11 +21,11 @@ import (
 	"testing"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/buf/buffetch/internal"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/git"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/slogtestext"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

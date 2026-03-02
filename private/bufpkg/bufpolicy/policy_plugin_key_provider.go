@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io/fs"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufplugin"
 )
 
 var (

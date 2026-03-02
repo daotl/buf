@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/daotl/buf/private/pkg/thread"
 )
 
 type checker struct {

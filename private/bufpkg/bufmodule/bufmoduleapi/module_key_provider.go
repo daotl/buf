@@ -19,10 +19,10 @@ import (
 	"log/slog"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 )
 
 // NewModuleKeyProvider returns a new ModuleKeyProvider for the given API clients.

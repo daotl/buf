@@ -19,9 +19,9 @@ import (
 
 	"buf.build/go/standard/xslices"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/buf/buftarget"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/buftarget"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 type moduleTargeting struct {

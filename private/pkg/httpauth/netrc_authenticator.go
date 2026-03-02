@@ -19,7 +19,7 @@ import (
 	"net/http"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/pkg/netrc"
+	"github.com/daotl/buf/private/pkg/netrc"
 )
 
 type netrcAuthenticator struct{}

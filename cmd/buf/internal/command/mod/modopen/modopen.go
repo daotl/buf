@@ -22,9 +22,9 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/cli/browser"
 )
 

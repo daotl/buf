@@ -14,7 +14,7 @@
 
 package internal
 
-import "github.com/bufbuild/buf/private/pkg/normalpath"
+import "github.com/daotl/buf/private/pkg/normalpath"
 
 var (
 	_ ParsedArchiveRef = &archiveRef{}

@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/dag"
+	"github.com/daotl/buf/private/pkg/dag"
 	"github.com/stretchr/testify/require"
 )
 

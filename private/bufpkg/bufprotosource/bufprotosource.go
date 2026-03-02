@@ -29,9 +29,9 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/protodescriptor"
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"

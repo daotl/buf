@@ -22,8 +22,8 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/pkg/normalpath"
 	"github.com/spf13/pflag"
 )
 

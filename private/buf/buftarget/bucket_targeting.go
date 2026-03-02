@@ -18,8 +18,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 // BucketTargeting provides targeting information for the bucket based on any controlling

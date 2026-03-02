@@ -25,12 +25,12 @@ import (
 	"buf.build/go/bufplugin/check"
 	"buf.build/go/standard/xslices"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/bufctl"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/buf/bufctl"
+	"github.com/daotl/buf/private/bufpkg/bufcheck"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/spf13/pflag"
 )
 

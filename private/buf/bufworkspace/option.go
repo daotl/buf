@@ -16,7 +16,7 @@ package bufworkspace
 
 import (
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/normalpath"
 )
 
 // WorkspaceBucketOption is an option for a new Workspace created by a Bucket.

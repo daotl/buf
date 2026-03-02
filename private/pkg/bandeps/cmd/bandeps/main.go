@@ -23,9 +23,9 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/pkg/bandeps"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/slogapp"
+	"github.com/daotl/buf/private/pkg/bandeps"
+	"github.com/daotl/buf/private/pkg/encoding"
+	"github.com/daotl/buf/private/pkg/slogapp"
 	"github.com/spf13/pflag"
 )
 

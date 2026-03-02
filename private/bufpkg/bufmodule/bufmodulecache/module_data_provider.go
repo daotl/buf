@@ -18,8 +18,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmodulestore"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule/bufmodulestore"
 	"github.com/google/uuid"
 )
 

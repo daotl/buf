@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/daotl/buf/private/pkg/storage/storagemem"
 	"github.com/stretchr/testify/require"
 )
 

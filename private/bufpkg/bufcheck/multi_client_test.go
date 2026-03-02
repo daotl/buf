@@ -25,9 +25,9 @@ import (
 	"buf.build/go/bufplugin/option"
 	"buf.build/go/standard/xslices"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
-	"github.com/bufbuild/buf/private/pkg/wasm"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/pkg/wasm"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

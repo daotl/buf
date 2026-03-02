@@ -24,7 +24,7 @@ import (
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appcmd/appcmdtesting"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/cmd/buf/internal/internaltesting"
+	"github.com/daotl/buf/cmd/buf/internal/internaltesting"
 )
 
 // TestBreakingWorkspaceNewModuleWithImport tests that adding a new module to a

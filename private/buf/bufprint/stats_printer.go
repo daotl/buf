@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/protostat"
+	"github.com/daotl/buf/private/pkg/protostat"
 )
 
 type statsPrinter struct {

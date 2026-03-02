@@ -26,7 +26,7 @@ import (
 
 	"buf.build/go/bufplugin/check"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 const (

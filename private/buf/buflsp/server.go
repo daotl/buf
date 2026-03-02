@@ -24,7 +24,7 @@ import (
 
 	celpv "buf.build/go/protovalidate/cel"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/buf/bufformat"
+	"github.com/daotl/buf/private/buf/bufformat"
 	"github.com/bufbuild/protocompile/parser"
 	"github.com/bufbuild/protocompile/reporter"
 	"github.com/google/cel-go/cel"

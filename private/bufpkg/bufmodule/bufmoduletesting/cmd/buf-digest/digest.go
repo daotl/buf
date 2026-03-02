@@ -26,10 +26,10 @@ import (
 	"buf.build/go/app/appext"
 	"buf.build/go/standard/xslices"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/slogapp"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/pkg/slogapp"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"github.com/spf13/pflag"
 )
 

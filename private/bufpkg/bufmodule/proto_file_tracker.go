@@ -19,7 +19,7 @@ import (
 	"sort"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // protoFileTracker tracks if we found a .proto file for each Module tracked, and what the OpaqueIDs

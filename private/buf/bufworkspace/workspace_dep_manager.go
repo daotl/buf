@@ -21,14 +21,14 @@ import (
 	"sort"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy/bufpolicyconfig"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufplugin"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy/bufpolicyconfig"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // WorkspaceDepManager is a workspace that can be updated.

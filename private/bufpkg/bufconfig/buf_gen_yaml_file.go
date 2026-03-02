@@ -20,9 +20,9 @@ import (
 	"io"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/encoding"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 const (

@@ -21,11 +21,11 @@ import (
 	pluginv1beta1 "buf.build/gen/go/bufbuild/registry/protocolbuffers/go/buf/registry/plugin/v1beta1"
 	"buf.build/go/standard/xslices"
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapiplugin"
-	"github.com/bufbuild/buf/private/pkg/syserror"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufplugin"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapiplugin"
+	"github.com/daotl/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 )
 
 // NewPluginKeyProvider returns a new PluginKeyProvider for the given API clients.

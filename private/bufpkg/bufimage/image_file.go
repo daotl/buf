@@ -17,8 +17,8 @@ package bufimage
 import (
 	"slices"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/protodescriptor"
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

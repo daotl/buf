@@ -17,7 +17,7 @@ package cas
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 // BucketToDigest converts the files in the bucket to a digest.

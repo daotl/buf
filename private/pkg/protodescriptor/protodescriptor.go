@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/normalpath"
 	"github.com/bufbuild/protocompile"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"

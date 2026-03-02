@@ -24,9 +24,9 @@ import (
 	"io/fs"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageutil"
 	"github.com/klauspost/compress/zip"
 )
 

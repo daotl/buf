@@ -24,10 +24,10 @@ import (
 	"strconv"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/pkg/connectclient"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 )
 
 const (

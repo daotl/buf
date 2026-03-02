@@ -20,11 +20,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem/internal"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagemem/internal"
+	"github.com/daotl/buf/private/pkg/storage/storageutil"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 type bucket struct {

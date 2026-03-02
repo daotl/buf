@@ -1,4 +1,4 @@
-module github.com/bufbuild/buf
+module github.com/daotl/buf
 
 go 1.25.6
 

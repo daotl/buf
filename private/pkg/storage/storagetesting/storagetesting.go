@@ -32,11 +32,11 @@ import (
 	"testing"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
-	"github.com/bufbuild/buf/private/pkg/tmp"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagearchive"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/storage/storageutil"
+	"github.com/daotl/buf/private/pkg/tmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

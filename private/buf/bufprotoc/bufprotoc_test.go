@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
 )
 

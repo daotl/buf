@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/pkg/slogapp"
+	"github.com/daotl/buf/private/pkg/slogapp"
 	"github.com/stretchr/testify/require"
 )
 

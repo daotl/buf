@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin/bufremotepluginconfig"
+	"github.com/daotl/buf/private/bufpkg/bufremoteplugin/bufremotepluginconfig"
 	"github.com/docker/docker/api/types"
 	imagetypes "github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"

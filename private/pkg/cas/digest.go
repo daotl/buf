@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/shake256"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/shake256"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 const (

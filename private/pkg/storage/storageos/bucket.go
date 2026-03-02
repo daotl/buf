@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 
 	"buf.build/go/standard/xpath/xfilepath"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storageutil"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // errNotDir is the error returned if a path is not a directory.

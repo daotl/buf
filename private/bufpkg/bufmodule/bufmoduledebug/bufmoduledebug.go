@@ -17,8 +17,8 @@ package bufmoduledebug
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/indent"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/pkg/indent"
 )
 
 // ModuleSetDebugString gets a debug string with ModuleSet information.

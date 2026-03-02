@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	pluginv1beta1 "buf.build/gen/go/bufbuild/registry/protocolbuffers/go/buf/registry/plugin/v1beta1"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
-	"github.com/bufbuild/buf/private/pkg/cas"
+	"github.com/daotl/buf/private/bufpkg/bufplugin"
+	"github.com/daotl/buf/private/pkg/cas"
 )
 
 var (

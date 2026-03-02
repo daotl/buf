@@ -15,10 +15,10 @@
 package bufcheck
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
-	"github.com/bufbuild/buf/private/pkg/pluginrpcutil"
-	"github.com/bufbuild/buf/private/pkg/syserror"
-	"github.com/bufbuild/buf/private/pkg/wasm"
+	"github.com/daotl/buf/private/bufpkg/bufplugin"
+	"github.com/daotl/buf/private/pkg/pluginrpcutil"
+	"github.com/daotl/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/wasm"
 	"pluginrpc.com/pluginrpc"
 )
 

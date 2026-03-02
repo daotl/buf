@@ -22,7 +22,7 @@ import (
 
 	"buf.build/go/spdx"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
+	"github.com/daotl/buf/private/bufpkg/bufremoteplugin/bufremotepluginref"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/semver"
 )

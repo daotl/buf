@@ -25,7 +25,7 @@ import (
 	"buf.build/go/app"
 	"buf.build/go/app/appcmd"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/buf/buffetch"
+	"github.com/daotl/buf/private/buf/buffetch"
 	"github.com/spf13/pflag"
 )
 

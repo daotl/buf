@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // Graph is a directed acyclic graph structure.

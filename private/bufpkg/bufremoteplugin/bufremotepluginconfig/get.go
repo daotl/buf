@@ -21,8 +21,8 @@ import (
 	"io"
 
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/encoding"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 func getConfigForBucket(ctx context.Context, readBucket storage.ReadBucket, options []ConfigOption) (_ *Config, retErr error) {

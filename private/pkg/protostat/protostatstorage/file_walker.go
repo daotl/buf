@@ -19,7 +19,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 type fileWalker struct {

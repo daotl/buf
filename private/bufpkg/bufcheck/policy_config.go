@@ -15,9 +15,9 @@
 package bufcheck
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy/bufpolicyconfig"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy/bufpolicyconfig"
 )
 
 // policyToBufConfigLintConfig creates a new bufconfig.LintConfig from the source bufpolicy.Policy

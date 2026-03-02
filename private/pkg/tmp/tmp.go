@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 )
 
 // File is a temporary file or directory.

@@ -23,11 +23,11 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy/bufpolicyconfig"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy/bufpolicyconfig"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/google/uuid"
 	"github.com/spf13/pflag"
 )

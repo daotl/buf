@@ -17,7 +17,7 @@ package bufcheck
 import (
 	descriptorv1 "buf.build/gen/go/bufbuild/bufplugin/protocolbuffers/go/buf/plugin/descriptor/v1"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
 )
 
 func imageToProtoFileDescriptors(image bufimage.Image) []*descriptorv1.FileDescriptor {
