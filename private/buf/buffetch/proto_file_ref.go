@@ -15,7 +15,7 @@
 package buffetch
 
 import (
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
+	"github.com/daotl/buf/private/buf/buffetch/internal"
 )
 
 var _ ProtoFileRef = &protoFileRef{}

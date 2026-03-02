@@ -20,8 +20,8 @@ import (
 
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/pkg/slogapp"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/pkg/slogapp"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 	"github.com/spf13/pflag"
 )
 

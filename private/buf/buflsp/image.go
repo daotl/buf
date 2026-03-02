@@ -26,7 +26,7 @@ import (
 
 	"buf.build/go/standard/xlog/xslog"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
 	"github.com/bufbuild/protocompile"
 	"github.com/bufbuild/protocompile/experimental/source"
 	"github.com/bufbuild/protocompile/linker"

@@ -22,10 +22,10 @@ import (
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
+	registryv1alpha1 "github.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/daotl/buf/private/pkg/connectclient"
 	"github.com/spf13/pflag"
 )
 

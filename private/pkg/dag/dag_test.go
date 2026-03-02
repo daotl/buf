@@ -35,8 +35,8 @@ package dag_test
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/dag"
-	"github.com/bufbuild/buf/private/pkg/dag/dagtest"
+	"github.com/daotl/buf/private/pkg/dag"
+	"github.com/daotl/buf/private/pkg/dag/dagtest"
 	"github.com/stretchr/testify/require"
 )
 

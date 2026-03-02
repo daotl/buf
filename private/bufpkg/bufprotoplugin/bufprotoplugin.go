@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage"
 	"github.com/bufbuild/protoplugin"
 	"google.golang.org/protobuf/types/pluginpb"
 )

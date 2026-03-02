@@ -20,8 +20,8 @@ import (
 	"io/fs"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/pkg/normalpath"
 	"github.com/bufbuild/protocompile/reporter"
 )
 

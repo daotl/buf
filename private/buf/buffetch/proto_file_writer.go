@@ -20,7 +20,7 @@ import (
 	"log/slog"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
+	"github.com/daotl/buf/private/buf/buffetch/internal"
 )
 
 type protoFileWriter struct {

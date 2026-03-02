@@ -21,7 +21,7 @@ import (
 	"log/slog"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/daotl/buf/private/pkg/thread"
 	"github.com/bufbuild/protoplugin"
 	"google.golang.org/protobuf/types/pluginpb"
 )

@@ -19,9 +19,9 @@ import (
 
 	"buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
 	celpv "buf.build/go/protovalidate/cel"
-	"github.com/bufbuild/buf/private/bufpkg/bufprotosource"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/bufpkg/bufprotosource"
+	"github.com/daotl/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/google/cel-go/cel"
 )
 

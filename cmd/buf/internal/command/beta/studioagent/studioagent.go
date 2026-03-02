@@ -23,9 +23,9 @@ import (
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/buf/bufstudioagent"
-	"github.com/bufbuild/buf/private/pkg/cert/certclient"
-	"github.com/bufbuild/buf/private/pkg/transport/http/httpserver"
+	"github.com/daotl/buf/private/buf/bufstudioagent"
+	"github.com/daotl/buf/private/pkg/cert/certclient"
+	"github.com/daotl/buf/private/pkg/transport/http/httpserver"
 	"github.com/spf13/pflag"
 )
 

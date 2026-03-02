@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/pkg/protoencoding"
 	"github.com/google/cel-go/cel"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

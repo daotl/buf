@@ -19,10 +19,10 @@ import (
 	"strings"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/gen/data/datalegacyfederation"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/gen/data/datalegacyfederation"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // If we ever get to a case where we're supporting legacy federation, and we're moving buf.build,

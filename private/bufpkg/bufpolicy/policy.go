@@ -17,8 +17,8 @@ package bufpolicy
 import (
 	"sync"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/google/uuid"
 )
 

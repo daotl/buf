@@ -17,10 +17,10 @@ package bufimagetesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	imagev1 "github.com/daotl/buf/private/gen/proto/go/buf/alpha/image/v1"
+	"github.com/daotl/buf/private/pkg/protodescriptor"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

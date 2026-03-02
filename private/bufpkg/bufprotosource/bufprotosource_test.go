@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/daotl/buf/private/pkg/slogtestext"
 	"github.com/stretchr/testify/require"
 )
 

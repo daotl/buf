@@ -35,7 +35,7 @@ import (
 
 	"buf.build/go/app"
 	"buf.build/go/standard/xos/xexec"
-	"github.com/bufbuild/buf/private/pkg/slogtestext"
+	"github.com/daotl/buf/private/pkg/slogtestext"
 	"github.com/docker/docker/api/types"
 	dockerimage "github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"

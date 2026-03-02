@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufcheckserver/internal/bufcheckserverutil/customfeatures/customfeatures"
-	"github.com/bufbuild/buf/private/bufpkg/bufprotosource"
-	"github.com/bufbuild/buf/private/gen/proto/go/google/protobuf"
+	"github.com/daotl/buf/private/bufpkg/bufcheck/bufcheckserver/internal/bufcheckserverutil/customfeatures/customfeatures"
+	"github.com/daotl/buf/private/bufpkg/bufprotosource"
+	"github.com/daotl/buf/private/gen/proto/go/google/protobuf"
 	"github.com/bufbuild/protocompile/protoutil"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"

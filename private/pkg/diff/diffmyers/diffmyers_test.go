@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/diff/diffmyers"
+	"github.com/daotl/buf/private/pkg/diff/diffmyers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

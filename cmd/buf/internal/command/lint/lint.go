@@ -22,11 +22,11 @@ import (
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/bufctl"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/buf/bufctl"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/bufpkg/bufcheck"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
 	"github.com/spf13/pflag"
 )
 

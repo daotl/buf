@@ -19,8 +19,8 @@ import (
 	"log/slog"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/bufpkg/bufprotoplugin"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/bufpkg/bufprotoplugin"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"google.golang.org/protobuf/types/pluginpb"
 )
 

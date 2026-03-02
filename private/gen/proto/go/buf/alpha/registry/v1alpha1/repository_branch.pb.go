@@ -980,7 +980,7 @@ const file_buf_alpha_registry_v1alpha1_repository_branch_proto_rawDesc = "" +
 	"\x16ListRepositoryBranches\x12:.buf.alpha.registry.v1alpha1.ListRepositoryBranchesRequest\x1a;.buf.alpha.registry.v1alpha1.ListRepositoryBranchesResponse\"\x03\x90\x02\x01\x12\xb7\x01\n" +
 	"!ListRepositoryBranchesByReference\x12E.buf.alpha.registry.v1alpha1.ListRepositoryBranchesByReferenceRequest\x1aF.buf.alpha.registry.v1alpha1.ListRepositoryBranchesByReferenceResponse\"\x03\x90\x02\x01\x12\x99\x01\n" +
 	"\x17GetCurrentDefaultBranch\x12;.buf.alpha.registry.v1alpha1.GetCurrentDefaultBranchRequest\x1a<.buf.alpha.registry.v1alpha1.GetCurrentDefaultBranchResponse\"\x03\x90\x02\x01B\xa2\x02\n" +
-	"\x1fcom.buf.alpha.registry.v1alpha1B\x15RepositoryBranchProtoP\x01ZYgithub.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1;registryv1alpha1\xa2\x02\x03BAR\xaa\x02\x1bBuf.Alpha.Registry.V1alpha1\xca\x02\x1bBuf\\Alpha\\Registry\\V1alpha1\xe2\x02'Buf\\Alpha\\Registry\\V1alpha1\\GPBMetadata\xea\x02\x1eBuf::Alpha::Registry::V1alpha1b\x06proto3"
+	"\x1fcom.buf.alpha.registry.v1alpha1B\x15RepositoryBranchProtoP\x01ZYgithub.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1;registryv1alpha1\xa2\x02\x03BAR\xaa\x02\x1bBuf.Alpha.Registry.V1alpha1\xca\x02\x1bBuf\\Alpha\\Registry\\V1alpha1\xe2\x02'Buf\\Alpha\\Registry\\V1alpha1\\GPBMetadata\xea\x02\x1eBuf::Alpha::Registry::V1alpha1b\x06proto3"
 
 var file_buf_alpha_registry_v1alpha1_repository_branch_proto_msgTypes = make([]protoimpl.MessageInfo, 9)
 var file_buf_alpha_registry_v1alpha1_repository_branch_proto_goTypes = []any{

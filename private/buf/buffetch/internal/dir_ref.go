@@ -19,7 +19,7 @@ import (
 
 	"buf.build/go/app"
 	"buf.build/go/standard/xpath/xfilepath"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/normalpath"
 )
 
 var (

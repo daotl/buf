@@ -18,10 +18,10 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/gen/data/datawkt"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/gen/data/datawkt"
+	"github.com/daotl/buf/private/pkg/protoencoding"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

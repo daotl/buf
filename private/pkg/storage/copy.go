@@ -20,7 +20,7 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/daotl/buf/private/pkg/thread"
 )
 
 // Copy copies the bucket at from to the bucket at to.

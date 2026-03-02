@@ -55,7 +55,7 @@ linters:
         - pattern: ^exec\.Command$
         - pattern: ^exec\.CommandContext$
         # os.Rename does not work across filesystem boundaries
-        # See https://github.com/bufbuild/buf/issues/639
+        # See https://github.com/daotl/buf/issues/639
         - pattern: ^os\.Rename$
         # Use private/pkg/osext.Getwd
         - pattern: ^os\.Getwd$
@@ -78,11 +78,11 @@ linters:
         - nilness
     importas:
       alias:
-        - pkg: github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1
+        - pkg: github.com/daotl/buf/private/gen/proto/go/buf/alpha/image/v1
           alias: imagev1
-        - pkg: github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1
+        - pkg: github.com/daotl/buf/private/gen/proto/go/buf/alpha/module/v1
           alias: modulev1
-        - pkg: github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1
+        - pkg: github.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1
           alias: registryv1alpha1
     nolintlint:
       require-explanation: true

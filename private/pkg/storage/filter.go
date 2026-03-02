@@ -18,7 +18,7 @@ import (
 	"context"
 	"io/fs"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/normalpath"
 )
 
 // FilterReadBucket filters the ReadBucket.

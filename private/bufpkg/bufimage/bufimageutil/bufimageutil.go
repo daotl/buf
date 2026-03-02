@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
+	"github.com/daotl/buf/private/bufpkg/bufimage"
 	"github.com/bufbuild/protoplugin/protopluginutil"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

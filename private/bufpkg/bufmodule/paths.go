@@ -19,7 +19,7 @@ import (
 	"sync"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"buf.build/go/app"
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
+	"github.com/daotl/buf/private/buf/buffetch/internal"
 )
 
 func TestGetParsedRefSuccess_UnixOnly(t *testing.T) {

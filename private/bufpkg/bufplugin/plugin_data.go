@@ -19,7 +19,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/cas"
+	"github.com/daotl/buf/private/pkg/cas"
 )
 
 // PluginData presents the raw Plugin data read by PluginKey.

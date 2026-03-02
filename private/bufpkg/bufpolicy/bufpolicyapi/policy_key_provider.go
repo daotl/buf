@@ -21,11 +21,11 @@ import (
 	policyv1beta1 "buf.build/gen/go/bufbuild/registry/protocolbuffers/go/buf/registry/policy/v1beta1"
 	"buf.build/go/standard/xslices"
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/bufpkg/bufpolicy"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapipolicy"
-	"github.com/bufbuild/buf/private/pkg/syserror"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/bufpkg/bufpolicy"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapipolicy"
+	"github.com/daotl/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 )
 
 // NewPolicyKeyProvider returns a new PolicyKeyProvider for the given API clients.

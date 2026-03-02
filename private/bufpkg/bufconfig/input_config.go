@@ -21,7 +21,7 @@ import (
 
 	"buf.build/go/standard/xslices"
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // InputConfigType is an input config's type.

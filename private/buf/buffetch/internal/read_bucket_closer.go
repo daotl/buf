@@ -17,10 +17,10 @@ package internal
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/buf/buftarget"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/daotl/buf/private/buf/buftarget"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagemem"
 )
 
 var _ ReadBucketCloser = &readBucketCloser{}

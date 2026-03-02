@@ -4033,7 +4033,7 @@ const file_buf_alpha_registry_v1alpha1_repository_proto_rawDesc = "" +
 	"\x12AddRepositoryGroup\x126.buf.alpha.registry.v1alpha1.AddRepositoryGroupRequest\x1a7.buf.alpha.registry.v1alpha1.AddRepositoryGroupResponse\"\x03\x90\x02\x02\x12\x93\x01\n" +
 	"\x15UpdateRepositoryGroup\x129.buf.alpha.registry.v1alpha1.UpdateRepositoryGroupRequest\x1a:.buf.alpha.registry.v1alpha1.UpdateRepositoryGroupResponse\"\x03\x90\x02\x02\x12\x93\x01\n" +
 	"\x15RemoveRepositoryGroup\x129.buf.alpha.registry.v1alpha1.RemoveRepositoryGroupRequest\x1a:.buf.alpha.registry.v1alpha1.RemoveRepositoryGroupResponse\"\x03\x90\x02\x02B\x9c\x02\n" +
-	"\x1fcom.buf.alpha.registry.v1alpha1B\x0fRepositoryProtoP\x01ZYgithub.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1;registryv1alpha1\xa2\x02\x03BAR\xaa\x02\x1bBuf.Alpha.Registry.V1alpha1\xca\x02\x1bBuf\\Alpha\\Registry\\V1alpha1\xe2\x02'Buf\\Alpha\\Registry\\V1alpha1\\GPBMetadata\xea\x02\x1eBuf::Alpha::Registry::V1alpha1b\x06proto3"
+	"\x1fcom.buf.alpha.registry.v1alpha1B\x0fRepositoryProtoP\x01ZYgithub.com/daotl/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1;registryv1alpha1\xa2\x02\x03BAR\xaa\x02\x1bBuf.Alpha.Registry.V1alpha1\xca\x02\x1bBuf\\Alpha\\Registry\\V1alpha1\xe2\x02'Buf\\Alpha\\Registry\\V1alpha1\\GPBMetadata\xea\x02\x1eBuf::Alpha::Registry::V1alpha1b\x06proto3"
 
 var file_buf_alpha_registry_v1alpha1_repository_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_buf_alpha_registry_v1alpha1_repository_proto_msgTypes = make([]protoimpl.MessageInfo, 46)

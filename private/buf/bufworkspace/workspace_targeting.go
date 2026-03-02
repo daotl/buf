@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/buf/buftarget"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/buftarget"
+	"github.com/daotl/buf/private/bufpkg/bufconfig"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // workspaceTargeting figures out if we are working with a v1 or v2 workspace based on
@@ -590,7 +590,7 @@ func getMappedModuleBucketAndModuleTargeting(
 		}
 		matchers := []storage.Matcher{
 			// need to do match extension here
-			// https://github.com/bufbuild/buf/issues/113
+			// https://github.com/daotl/buf/issues/113
 			storage.MatchPathExt(".proto"),
 		}
 		// Use MaskReadBucket over FilterReadBucket to optimize filtering on large file sets.

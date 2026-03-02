@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	"buf.build/go/standard/xstrings"
-	"github.com/bufbuild/buf/private/bufpkg/bufprotosource"
+	"github.com/daotl/buf/private/bufpkg/bufprotosource"
 )
 
 func fieldToLowerSnakeCase(s string) string {

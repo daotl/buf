@@ -20,11 +20,11 @@ import (
 	"time"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapiowner"
-	"github.com/bufbuild/buf/private/pkg/syserror"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapiowner"
+	"github.com/daotl/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/pkg/uuidutil"
 	"github.com/google/uuid"
 )
 

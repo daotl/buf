@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage"
 )
 
 // ModuleData presents raw Module data read by ModuleKey.

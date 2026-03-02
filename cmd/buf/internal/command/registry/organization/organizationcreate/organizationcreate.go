@@ -22,10 +22,10 @@ import (
 	"buf.build/go/app/appcmd"
 	"buf.build/go/app/appext"
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/bufprint"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapiowner"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/buf/bufcli"
+	"github.com/daotl/buf/private/buf/bufprint"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapiowner"
+	"github.com/daotl/buf/private/pkg/syserror"
 	"github.com/spf13/pflag"
 )
 

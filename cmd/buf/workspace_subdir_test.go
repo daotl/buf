@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufctl"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/osext"
+	"github.com/daotl/buf/private/buf/bufctl"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/osext"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

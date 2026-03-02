@@ -22,9 +22,9 @@ import (
 	"sort"
 
 	"buf.build/go/standard/xslices"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/gen/data/datawkt"
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/daotl/buf/private/bufpkg/bufanalysis"
+	"github.com/daotl/buf/private/gen/data/datawkt"
+	"github.com/daotl/buf/private/pkg/syserror"
 )
 
 // ModuleDep is the dependency of a Module.

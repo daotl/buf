@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufprotoplugin"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/daotl/buf/private/bufpkg/bufprotoplugin"
+	"github.com/daotl/buf/private/pkg/normalpath"
+	"github.com/daotl/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/pkg/storage/storagearchive"
+	"github.com/daotl/buf/private/pkg/storage/storagemem"
+	"github.com/daotl/buf/private/pkg/storage/storageos"
 	"google.golang.org/protobuf/types/pluginpb"
 )
 

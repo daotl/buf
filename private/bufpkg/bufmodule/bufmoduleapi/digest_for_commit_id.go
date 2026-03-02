@@ -17,8 +17,8 @@ package bufmoduleapi
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
+	"github.com/daotl/buf/private/bufpkg/bufmodule"
+	"github.com/daotl/buf/private/bufpkg/bufregistryapi/bufregistryapimodule"
 	"github.com/google/uuid"
 )
 

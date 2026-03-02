@@ -15,8 +15,8 @@
 package bufimage
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufparse"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/daotl/buf/private/bufpkg/bufparse"
+	"github.com/daotl/buf/private/pkg/storage"
 	"github.com/google/uuid"
 )
 

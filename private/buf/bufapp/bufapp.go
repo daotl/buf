@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"buf.build/go/app/appext"
-	"github.com/bufbuild/buf/private/pkg/cert/certclient"
+	"github.com/daotl/buf/private/pkg/cert/certclient"
 )
 
 const currentVersion = "v1"
