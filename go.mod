@@ -9,7 +9,6 @@ require (
 	buf.build/gen/go/bufbuild/registry/protocolbuffers/go v1.36.11-20260126144947-819582968857.1
 	buf.build/go/app v0.2.0
 	buf.build/go/bufplugin v0.9.0
-	buf.build/go/bufprivateusage v0.1.0
 	buf.build/go/protovalidate v1.1.3
 	buf.build/go/protoyaml v0.6.0
 	buf.build/go/spdx v0.2.0
@@ -19,6 +18,7 @@ require (
 	github.com/bufbuild/protocompile v0.14.2-0.20260202185951-d02d3732d113
 	github.com/bufbuild/protoplugin v0.0.0-20250218205857-750e09ce93e1
 	github.com/cli/browser v1.3.0
+	github.com/daotl/bufprivateusage-go v0.1.1
 	github.com/docker/docker v28.5.2+incompatible
 	github.com/gofrs/flock v0.13.0
 	github.com/google/cel-go v0.27.0

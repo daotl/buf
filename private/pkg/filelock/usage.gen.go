@@ -16,4 +16,4 @@
 
 package filelock
 
-import _ "buf.build/go/bufprivateusage"
+import _ "github.com/daotl/bufprivateusage-go"
